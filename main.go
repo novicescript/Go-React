@@ -55,7 +55,7 @@ func main() {
 
 	app := fiber.New()
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "https://timelapse.onrender.com",
+		AllowOrigins: "https://timelapses.netlify.app",
 		AllowHeaders: "Origin,Content-Type,Accept",
 	}))
 
